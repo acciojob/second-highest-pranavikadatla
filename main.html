@@ -10,6 +10,9 @@
 	<script>
 		function secondHighest(arr) {
 			//Write your code here
+			arr.sort((a,b)=>b-a);
+			let secondHighestElement=arr[1];
+			return secondHighestElement;
 			
 		}
 
